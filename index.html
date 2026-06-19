@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gondal Trasporti di Muhammad Akbar</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    line-height:1.6;
+    color:#333;
+}
+
+header{
+    background:#003366;
+    color:white;
+    padding:15px 0;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:#ff7a00;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,51,102,0.75), rgba(0,51,102,0.75)),
+    url('https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1600&q=80');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+    margin-bottom:30px;
+}
+
+.btn{
+    background:#ff7a00;
+    color:white;
+    padding:15px 30px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+section{
+    padding:70px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    color:#003366;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#f5f5f5;
+    padding:25px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.card h3{
+    color:#003366;
+    margin-bottom:15px;
+}
+
+.about{
+    background:#f8f8f8;
+}
+
+.contact{
+    background:#003366;
+    color:white;
+}
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+}
+
+.contact h2{
+    margin-bottom:20px;
+}
+
+footer{
+    background:#001f3f;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+.navbar{
+    flex-direction:column;
+    gap:15px;
+}
+
+nav ul{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:35px;
+}
+
+.contact-grid{
+    grid-template-columns:1fr;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container navbar">
+<div class="logo">GONDAL <span>TRASPORTI</span></div>
+
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">Chi Siamo</a></li>
+<li><a href="#services">Servizi</a></li>
+<li><a href="#contact">Contatti</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<section class="hero" id="home">
+<div class="container">
+<h1>Gondal Trasporti di Muhammad Akbar</h1>
+<p>Trasporti e Logistica in Tutta Europa</p>
+<a href="#contact" class="btn">Richiedi un Preventivo</a>
+</div>
+</section>
+
+<section id="about" class="about">
+<div class="container">
+<h2 class="section-title">Chi Siamo</h2>
+
+<p style="text-align:center; max-width:900px; margin:auto;">
+Gondal Trasporti di Muhammad Akbar offre servizi professionali di trasporto
+merci, consegne espresse e logistica in tutta Europa.
+Garantiamo affidabilità, puntualità e sicurezza per aziende e privati.
+</p>
+
+</div>
+</section>
+
+<section id="services">
+<div class="container">
+
+<h2 class="section-title">I Nostri Servizi</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>🚚 Trasporto Merci</h3>
+<p>Trasporto nazionale e internazionale con massima sicurezza.</p>
+</div>
+
+<div class="card">
+<h3>📦 Consegne Espresse</h3>
+<p>Servizio rapido e affidabile per aziende e privati.</p>
+</div>
+
+<div class="card">
+<h3>🌍 Trasporto Europeo</h3>
+<p>Consegne e spedizioni in tutti i paesi europei.</p>
+</div>
+
+<div class="card">
+<h3>🏢 Logistica Aziendale</h3>
+<p>Soluzioni personalizzate per imprese e attività commerciali.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section class="contact" id="contact">
+
+<div class="container">
+
+<h2 class="section-title" style="color:white;">Contatti</h2>
+
+<div class="contact-grid">
+
+<div>
+<h2>Informazioni</h2>
+
+<p><strong>Indirizzo:</strong><br>
+Via Provinciale, 174<br>
+24022 Alzano Lombardo (BG), Italia
+</p>
+
+<br>
+
+<p><strong>Telefono:</strong><br>
+320 258 3388<br>
+377 099 2553
+</p>
+
+<br>
+
+<p><strong>Email:</strong><br>
+gondaltrasporti2@gmail.com
+</p>
+
+<br>
+
+<p><strong>Copertura:</strong><br>
+Servizi di trasporto in tutta Europa
+</p>
+
+</div>
+
+<div>
+
+<h2>Richiedi Informazioni</h2>
+
+<form>
+
+<input type="text" placeholder="Nome"
+style="width:100%;padding:12px;margin-bottom:10px;">
+
+<input type="email" placeholder="Email"
+style="width:100%;padding:12px;margin-bottom:10px;">
+
+<input type="text" placeholder="Telefono"
+style="width:100%;padding:12px;margin-bottom:10px;">
+
+<textarea placeholder="Messaggio"
+style="width:100%;padding:12px;height:120px;"></textarea>
+
+<br><br>
+
+<button type="submit"
+style="background:#ff7a00;color:white;border:none;padding:15px 30px;border-radius:5px;cursor:pointer;">
+Invia Richiesta
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+<p>
+© 2026 Gondal Trasporti di Muhammad Akbar |
+Trasporti e Logistica in Tutta Europa
+</p>
+</footer>
+
+</body>
+</html>
